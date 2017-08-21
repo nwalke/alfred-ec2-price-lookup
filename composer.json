@@ -1,0 +1,6 @@
+{
+    "require": {
+        "joetannenbaum/alfred-workflow": "^0.1.0",
+        "estahn/json-query-wrapper": "^0.2.1"
+    }
+}
