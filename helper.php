@@ -18,8 +18,7 @@ class Helper
   public function __construct($query, $location, $system)
   {
     $this->workflow = new Workflow;
-    //$this->cache = getenv('alfred_workflow_cache');
-    $this->cache = '/Users/nwalke/Library/Caches/com.runningwithcrayons.Alfred-3/Workflow Data/com.alfredapp.ec2-price-lookup';
+    $this->cache = getenv('alfred_workflow_cache');
     if (!file_exists($this->cache)) {
       mkdir($this->cache, 0777, true);
     }
